@@ -6694,10 +6694,10 @@ ember-concurrency-test-waiter@0.3.1:
   dependencies:
     ember-cli-babel "^6.6.0"
 
-ember-concurrency@0.8.21:
-  version "0.8.21"
-  resolved "https://registry.yarnpkg.com/ember-concurrency/-/ember-concurrency-0.8.21.tgz#23263e00455d32bb7f5b1b344376143019796ac6"
-  integrity sha512-HiMdTdSE0XmRCCPEk2xBkVj93Ikexd/j+OMAstxMgJyGQTt52TkbHaWrUqED6ulPveXfsWzw5HMgC7WAEEHNjA==
+ember-concurrency@0.8.25:
+  version "0.8.25"
+  resolved "https://registry.yarnpkg.com/ember-concurrency/-/ember-concurrency-0.8.25.tgz#f8550852fb8e0ea29d722d4e17b08b065e6caa68"
+  integrity sha512-sbQRJMcaMvJIx5eWtOAejMDt5w2htKu8xpEp+DvXsa77vqCs/mloH4we9f7gr5uUXYPOfFOYnYpnl+I639Bc0g==
   dependencies:
     babel-core "^6.24.1"
     ember-cli-babel "^6.8.2"
