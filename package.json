@@ -40,7 +40,7 @@
     "broccoli-export-text": "0.0.2",
     "broccoli-funnel": "^2.0.1",
     "broccoli-serviceworker": "0.1.6",
-    "csv-parse": "^2.0.0",
+    "csv-parse": "^4.3.0",
     "devtron": "^1.4.0",
     "electron-forge": "^5.1.1",
     "electron-prebuilt-compile": "2.0.2",
