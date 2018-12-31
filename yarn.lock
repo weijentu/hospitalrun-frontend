@@ -5624,10 +5624,27 @@ ee-first@1.1.1:
   resolved "https://registry.yarnpkg.com/ee-first/-/ee-first-1.1.1.tgz#590c61156b0ae2f4f0255732a158b266bc56b21d"
   integrity sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=
 
-electron-compile@*, electron-compile@^6.4.2:
+electron-compile@*:
   version "6.4.3"
   resolved "https://registry.yarnpkg.com/electron-compile/-/electron-compile-6.4.3.tgz#54a9ec4418ab5faf77ba48f75ab5eb80156a64d4"
   integrity sha512-xzKLcbznK+WsQmp7K0h/rNxCxAFofePYIaptuZHTZNyNzDwQxUPbJRYaSkWllKLQIur5GiAsa7Ixbr5vm8Y53A==
+  dependencies:
+    "@paulcbetts/mime-types" "^2.1.10"
+    "@types/node" "^7.0.12"
+    btoa "^1.1.2"
+    debug "^2.5.1"
+    lru-cache "^4.0.1"
+    mkdirp "^0.5.1"
+    pify "^2.3.0"
+    rimraf "^2.5.4"
+    rxjs "^5.1.1"
+    spawn-rx "^2.0.3"
+    yargs "^4.8.1"
+
+electron-compile@^6.4.4:
+  version "6.4.4"
+  resolved "https://registry.yarnpkg.com/electron-compile/-/electron-compile-6.4.4.tgz#24c5bc4c937856fcc9141cf3cc7251172e0205df"
+  integrity sha512-LEOq5Tt7fAfONEyYLR0Ue1kL6/H8NAX6s9ouw4g6Azhu6onWh166fnf2O7Y3f9qkQEqYzwZl49Rd/QWxLG2AYw==
   dependencies:
     "@paulcbetts/mime-types" "^2.1.10"
     "@types/node" "^7.0.12"
