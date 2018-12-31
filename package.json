@@ -121,7 +121,7 @@
     "worker-pouch": "2.1.0"
   },
   "dependencies": {
-    "electron-compile": "^6.4.2",
+    "electron-compile": "^6.4.4",
     "electron-localshortcut": "^3.0.4",
     "electron-protocol-serve": "^1.3.0",
     "electron-squirrel-startup": "^1.0.0",
