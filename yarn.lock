@@ -12837,7 +12837,18 @@ nan@~2.8.0:
   resolved "https://registry.yarnpkg.com/nan/-/nan-2.8.0.tgz#ed715f3fe9de02b57a5e6252d90a96675e1f085a"
   integrity sha1-7XFfP+neArV6XmJS2QqWZ14fCFo=
 
-nano@6.4.4, nano@^6.2.0:
+nano@8.0.1:
+  version "8.0.1"
+  resolved "https://registry.yarnpkg.com/nano/-/nano-8.0.1.tgz#e60488406b1ad1d5b50ac2fe21d6b178a98754d8"
+  integrity sha512-q9q8894oLNyWHhsUjF4Nk9gAvGorsCrmx0aeA7AG9pYRnM+xtAKVX5GtWfW8c2qx4mJftXHeN1/6RR8Oo9eQaQ==
+  dependencies:
+    "@types/request" "^2.47.1"
+    cloudant-follow "^0.18.0"
+    debug "^2.2.0"
+    errs "^0.3.2"
+    request "^2.85.0"
+
+nano@^6.2.0:
   version "6.4.4"
   resolved "https://registry.yarnpkg.com/nano/-/nano-6.4.4.tgz#4902a095e5186cfb23612c78826ea755b76fadf0"
   integrity sha512-7sldMrZI1ZH8QE29PnzohxLfR67WNVzMKLa7EMl3x9Hr+0G+YpOUCq50qZ9G66APrjcb0Of2BTOZLNBCutZGag==
