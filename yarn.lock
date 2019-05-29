@@ -5054,10 +5054,10 @@ cssstyle@^1.0.0:
   dependencies:
     cssom "0.3.x"
 
-csv-parse@^2.0.0:
-  version "2.5.0"
-  resolved "https://registry.yarnpkg.com/csv-parse/-/csv-parse-2.5.0.tgz#65748997ecc3719c594622db1b9ea0e2eb7d56bb"
-  integrity sha512-4OcjOJQByI0YDU5COYw9HAqjo8/MOLLmT9EKyMCXUzgvh30vS1SlMK+Ho84IH5exN44cSnrYecw/7Zpu2m4lkA==
+csv-parse@^4.4.2:
+  version "4.4.2"
+  resolved "https://registry.yarnpkg.com/csv-parse/-/csv-parse-4.4.2.tgz#981ef1b8bd4094163e1533b06def83c01db8eb8e"
+  integrity sha512-lVx1OmDwsHckpjda9jWdlMO+hxnsAgfrQrxBdKhhtT5Jbku89Mfg5zGmaLJW2wWWKaEf7fXxLRdNYUE5HSQMAw==
 
 cuint@^0.2.1:
   version "0.2.2"
