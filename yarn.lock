@@ -6872,10 +6872,10 @@ ember-inspector@2.0.4:
   dependencies:
     ember-new-computed "^1.0.0"
 
-ember-inspector@^3.0.0:
-  version "3.2.0"
-  resolved "https://registry.yarnpkg.com/ember-inspector/-/ember-inspector-3.2.0.tgz#b08d7d46764da6d8c374ada08f1492231e0ac434"
-  integrity sha512-db41zCcf1qM5nS0jS4rpvGRpUowDia7W1AP5I2FQdkMWdOZPRAsDLdIFV1RTnArLKBd5VYvkokdji7pNezxIHw==
+ember-inspector@^3.10.0:
+  version "3.10.0"
+  resolved "https://registry.yarnpkg.com/ember-inspector/-/ember-inspector-3.10.0.tgz#5f78a8d909e4b98536b30e832c2e23859b1c9d32"
+  integrity sha512-Zsio2nptT1SLU7pz6XC2AGw0v+ykEotMEqwT45eje+BXMQ0T88V2kYXoPABkXgijrcfDJnS2pYyHYadl2ztDCg==
 
 ember-intl@^3.5.0:
   version "3.5.0"
