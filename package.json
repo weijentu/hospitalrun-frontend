@@ -117,7 +117,7 @@
     "tosource-polyfill": "^0.3.1",
     "typeahead.js": "twitter/typeahead.js#v0.11.1",
     "uuid": "^3.0.0",
-    "webrtc-adapter": "^6.4.0",
+    "webrtc-adapter": "^7.2.4",
     "worker-pouch": "2.1.0"
   },
   "dependencies": {
