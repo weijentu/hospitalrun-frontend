@@ -103,7 +103,7 @@
     "nano": "6.4.4",
     "pbkdf2": "^3.0.17",
     "pikaday-time": "owenmead/Pikaday#1.5.1",
-    "pouchdb": "6.3.4",
+    "pouchdb": "7.1.0",
     "pouchdb-adapter-memory": "6.4.0",
     "pouchdb-list": "^4.0.0",
     "pouchdb-load": "^1.4.6",
