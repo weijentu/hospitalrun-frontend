@@ -108,7 +108,7 @@
     "pouchdb-list": "^4.0.0",
     "pouchdb-load": "^1.4.6",
     "pouchdb-users": "^1.0.3",
-    "qunit-dom": "^0.7.0",
+    "qunit-dom": "^0.9.0",
     "stylelint": "~9.4.0",
     "stylelint-config-concentric": "^2.0.2",
     "stylelint-declaration-use-variable": "1.7.0",
