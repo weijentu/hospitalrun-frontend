@@ -112,7 +112,7 @@
     "stylelint": "~9.4.0",
     "stylelint-config-concentric": "^2.0.2",
     "stylelint-declaration-use-variable": "1.7.0",
-    "stylelint-scss": "3.2.0",
+    "stylelint-scss": "3.9.1",
     "timekeeper": "1.0.0",
     "tosource-polyfill": "^0.3.1",
     "typeahead.js": "twitter/typeahead.js#v0.11.1",
