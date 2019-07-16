@@ -485,8 +485,8 @@
   },
   "dashboard": {
     "needs_user_setup": "我们建议您建立使用者帐户",
-    "standalone_welcome": "<h4>感謝您下载 HospitalRun. </h4><p>您正在使用 HospitalRun 的独立模式. 这个模式支援多个使用者在一台电脑. 这對于下列是理想的:</p><ul><li>评估 HospitalRun 以开发伺服器.</li><li>使用平台来支援仅需单一设備(电脑)的诊所.</li></ul><p>如果您'考虑架构一个数台设備(电脑)的HospitalRun, 我们 <a href=\"https://github.com/HospitalRun/hospitalrun-frontend/issues/1048\" target=\"_blank\">正在试着开发功能</a> 让您从这单一设置升级到一般的雲端/伺服器设置.</p>",
-    "title": "欢迎来到 HospitalRun!"
+    "standalone_welcome": "<h4>感謝您下载孝德养老。</h4><p>您正在使用孝德养老的独立模式. 这个模式支援多个使用者在一台电脑. 这對于下列是理想的:</p><ul><li>评估孝德养老以开发伺服器.</li><li>使用平台来支援仅需单一设備(电脑)的诊所.</li></ul><p>如果您考虑架构一个数台设備(电脑)的孝德养老, 我们正在试着开发功能让您从这单一设置升级到一般的雲端/伺服器设置。</p>",
+    "title": "欢迎来到孝德养老！"
   },
   "dates": {
     "long": "{years} 年 {months} 月 {days} 日",
@@ -1177,7 +1177,7 @@
     }
   },
   "navigation": {
-    "about": "关于HospitalRun",
+    "about": "关于孝德养老",
     "actions": {
       "login": "登入",
       "logout": "登出",
