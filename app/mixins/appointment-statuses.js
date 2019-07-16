@@ -5,7 +5,7 @@ import { computed } from '@ember/object';
 
 export default Mixin.create({
   appointmentStatusList: [
-    '出席',
+    '出现',
     '预约',
     '取消',
     '错过'

@@ -5,12 +5,12 @@ import { computed } from '@ember/object';
 
 export default Mixin.create({
   defaultVisitTypes: [
-    'Admission',
-    'Clinic',
-    'Followup',
-    'Imaging',
-    'Lab',
-    'Pharmacy'
+    '住院',
+    '门诊',
+    '追踪',
+    '影像',
+    '测试',
+    '药物'
   ],
 
   _getVisitTypes(includeEmpty) {
