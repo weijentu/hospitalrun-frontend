@@ -135,12 +135,11 @@
                 {{date-picker model=model property="referredDate" label=(t 'patients.labels.referredDate') class="form-input-group"}}
                 {{form.input property="religion" label=(t 'patients.labels.religion') class="form-input-group"}}
                 {{form.input property="parent" label=(t 'patients.labels.parent') class="form-input-group"}}
-                {{form.select label=(t 'billing.labels.paymentProfile')
-                  property="paymentProfile"
-                  content=pricingProfiles
-                  optionValuePath="selectObject"
-                  optionLabelPath="selectObject.name"
+                {{form.select
                   prompt=" "
+                  label=(t 'billing.labels.paymentProfile')
+                  property="paymentProfiles"
+                  content=paymentProfiles
                   class="form-input-group"
                 }}
               </div>

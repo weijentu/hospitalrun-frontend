@@ -130,9 +130,9 @@
       "pageTitle": "查找列表",
       "patientStatusList": "病患状态表",
       "physicianList": "医师",
-      "procedureList": "程序",
-      "procedureLocations": "程序地点",
-      "procedurePricingTypes": "程序定价类型",
+      "procedureList": "手术",
+      "procedureLocations": "手术地点",
+      "procedurePricingTypes": "手术定价类型",
       "radiologists": "放射科医生",
       "titles": {
         "deleteLookupValue": "删除数值"
@@ -162,14 +162,14 @@
         "addLab": "增加测试",
         "addMedication": "增加药物",
         "addNote": "增加笔记",
-        "addOperationReport": "增加程序报告",
-        "addOperativePlan": "增加程序类型",
+        "addOperationReport": "增加手术报告",
+        "addOperativePlan": "增加手术类型",
         "addPatient": "增加病患",
         "addPayment": "新增付款",
         "addPhoto": "增加照片",
         "addPricing": "新增价錢",
         "addPricingProfile": "新增定价概况",
-        "addProcedure": "新增程序",
+        "addProcedure": "新增手术",
         "addSocialwork": "新增社区工作",
         "addVisit": "新增探访",
         "addVitals": "新增命脉资料",
@@ -196,7 +196,7 @@
         "deletePhoto": "删除照片",
         "deletePricing": "删除定价",
         "deletePricingProfile": "删除定价概况",
-        "deleteProcedure": "删除程序",
+        "deleteProcedure": "删除手术",
         "deleteSocialwork": "删除社会工作",
         "deleteVisit": "删除拜访",
         "deleteVitals": "删除命脉资料",
@@ -419,13 +419,13 @@
     },
     "operativeProcedures": {
       "buttons": {
-        "addProcedure": "新增程序"
+        "addProcedure": "新增手术"
       },
       "labels": {
-        "procedure": "程序"
+        "procedure": "手术"
       },
       "titles": {
-        "procedures": "程序"
+        "procedures": "手术"
       }
     },
     "patientOrders": {
@@ -932,7 +932,7 @@
     "prescriptionDate": "处方日期",
     "price": "价格",
     "print": "列印",
-    "procedures": "程序",
+    "procedures": "手术",
     "provider": "提供者",
     "pullFrom": "从...拉入",
     "quantity": "数目",
@@ -1161,8 +1161,8 @@
     },
     "procedure": {
       "names": {
-        "plural": "程序",
-        "singular": "程序"
+        "plural": "手术",
+        "singular": "手术"
       }
     },
     "user": {
@@ -1254,18 +1254,18 @@
       "additionalNotes": "其他备注",
       "assistant": "助理",
       "caseComplexity": "案件复杂度",
-      "operationDescription": "程序描述",
-      "preOpPrimaryDiagnosis": "程序前主要诊断",
-      "preOpSecondaryDiagnosis": "程序前次要诊断",
+      "operationDescription": "手术描述",
+      "preOpPrimaryDiagnosis": "手术前主要诊断",
+      "preOpSecondaryDiagnosis": "手术前次要诊断",
       "surgeon": "手术师",
       "surgeryDate": "手术日期"
     },
     "messages": {
-      "reportSaved": "程序报告已成功储存."
+      "reportSaved": "手术报告已成功储存."
     },
     "titles": {
-      "editTitle": "编辑程序报告",
-      "newTitle": "新增程序报告",
+      "editTitle": "编辑手术报告",
+      "newTitle": "新增手术报告",
       "reportSaved": "报告已储存"
     }
   },
@@ -1279,18 +1279,18 @@
       "caseComplexity": "案件复杂度",
       "completedStatus": "已完成",
       "droppedStatus": "被取消",
-      "operationDescription": "程序描述",
+      "operationDescription": "手术描述",
       "plannedStatus": "已计划",
       "status": "状态",
       "surgeon": "手术师"
     },
     "messages": {
-      "planCompleted": "程序计划已完成. 您将被导向程序报告.",
-      "planSaved": "程序计划已储存."
+      "planCompleted": "手术计划已完成. 您将被导向手术报告.",
+      "planSaved": "手术计划已储存."
     },
     "titles": {
-      "editTitle": "编辑程序计划",
-      "newTitle": "新增程序计划",
+      "editTitle": "编辑手术计划",
+      "newTitle": "新增手术计划",
       "planCompleted": "计划已完成",
       "planSaved": "计划已储存"
     }
@@ -1300,10 +1300,10 @@
       "addContact": "新增联络人",
       "addExpense": "新增费用",
       "addFamilyMember": "新增家庭成员",
-      "addOperativePlan": "新增程序计划",
+      "addOperativePlan": "新增手术计划",
       "backToPatients": "回到患者名单",
       "download": "下载",
-      "editOperativePlan": "現有程序计划",
+      "editOperativePlan": "現有手术计划",
       "newAppointment": "新增预约",
       "newImaging": "新增影像",
       "newLab": "新增测试",
@@ -1337,7 +1337,7 @@
       "middleName": "中间名",
       "monthlyCost": "月费",
       "occupation": "职业",
-      "operativePlan": "程序计划",
+      "operativePlan": "手术计划",
       "parent": "家长/监护人",
       "patientDays": "患者天数",
       "patientType": "患者类型",
@@ -1369,7 +1369,7 @@
     },
     "navigation": {
       "appointments": "预约",
-      "general": "取消",
+      "general": "一般",
       "history": "历史",
       "imaging": "影像",
       "labs": "测试",
@@ -1412,8 +1412,8 @@
       "patientListing": "患者名单",
       "patientReport": "患者报告",
       "patientStatus": "患者状态",
-      "proceduresDetail": "程序细节",
-      "proceduresSummary": "程序概要",
+      "proceduresDetail": "手术细节",
+      "proceduresSummary": "手术概要",
       "savedPatient": "患者已储存",
       "socialWork": "费用",
       "todaysOutpatients": "擁本日门诊病人",
@@ -1433,7 +1433,7 @@
       "imagePricing": "影像价格",
       "labPricing": "测试价格",
       "pricingProfiles": "价格概况",
-      "procedurePricing": "程序价格",
+      "procedurePricing": "手术价格",
       "wardPricing": "病房价格"
     }
   },
@@ -1471,25 +1471,25 @@
       "medicationUsed": "使用之药物"
     },
     "messages": {
-      "saved": "程序纪录已储存."
+      "saved": "手术纪录已储存."
     },
     "titles": {
       "addChargeItem": "新增收费项目",
       "addMedicationUsed": "新增使用药物",
       "deleteChargeItem": "删除收费项目",
       "deleteMedicationUsed": "新增使用药物",
-      "edit": "编辑程序",
+      "edit": "编辑手术",
       "editChargeItem": "编辑收费项目",
       "editMedicationUsed": "编辑使用药物",
       "medicationUsed": "使用药物",
-      "new": "新增程序",
-      "saved": "程序已储存"
+      "new": "新增手术",
+      "saved": "手术已储存"
     }
   },
   "reports": {
     "labels": {
       "admissionDate": "入院日期",
-      "allProcedures": "已完成所有程序",
+      "allProcedures": "已完成所有手术",
       "completedBy": "由...完成",
       "dischargeDate": "出院日期",
       "examiner": "审查者",
@@ -1505,13 +1505,13 @@
         "title": "备注"
       },
       "operativePlan": {
-        "description": "程序描述",
+        "description": "手术描述",
         "instructions": "入院后指导",
-        "procedures": "已计划程序",
-        "title": "程序计划"
+        "procedures": "已计划手术",
+        "title": "手术计划"
       },
       "primaryDiagnosis": "主要诊断",
-      "procedures": "程序",
+      "procedures": "手术",
       "secondaryDiagnosis": "次要诊断",
       "visitDate": "探访日期",
       "visitType": "探访类别"
@@ -1541,7 +1541,7 @@
       "newAppointment": "新增预约",
       "newDischargeReport": "新增出院报告",
       "newOPDReport": "新增OPD报告",
-      "newProcedure": "新增程序",
+      "newProcedure": "新增手术",
       "newVitals": "新增命脉资料"
     },
     "labels": {
@@ -1559,8 +1559,8 @@
       "ordersDone": "已完成订单",
       "ordersNotDone": "N",
       "patientToCheckIn": "要报到之患者",
-      "procedure": "程序",
-      "procedureDate": "程序日期",
+      "procedure": "手术",
+      "procedureDate": "手术日期",
       "reasonForVisit": "探访原因",
       "reportType": "报告类型",
       "status": "探访状态",
@@ -1585,7 +1585,7 @@
       "charges": "收费",
       "notes": "备注",
       "orders": "订購",
-      "procedures": "程序",
+      "procedures": "手术",
       "reports": "报告",
       "vitals": "命脉资料"
     },

@@ -1,8 +1,9 @@
 import Mixin from '@ember/object/mixin';
+import SelectValues from 'hospitalrun/utils/select-values';
 export default Mixin.create({
   paymentProfiles: [
-    'Private',
-    'Discounted',
-    'Free'
-  ]
+    '私人',
+    '折扣',
+    '免费'
+  ].map(SelectValues.selectValuesMap)
 });

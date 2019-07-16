@@ -5,10 +5,10 @@ import { computed } from '@ember/object';
 
 export default Mixin.create({
   appointmentStatusList: [
-    'Attended',
-    'Scheduled',
-    'Canceled',
-    'Missed'
+    '出席',
+    '预约',
+    '取消',
+    '错过'
   ],
   appointmentStatuses: map('appointmentStatusList', SelectValues.selectValuesMap),
 
