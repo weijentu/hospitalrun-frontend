@@ -108,7 +108,7 @@
       "alertImportListUpdateTitle": "名单已储存",
       "anesthesiaTypes": "麻醉种类",
       "anesthesiologists": "麻醉师",
-      "billingCategories": "建筑类别",
+      "billingCategories": "计费类别",
       "clinicList": "诊所地点",
       "countryList": "国家",
       "cptCodeList": "CPT 编码",
@@ -333,8 +333,10 @@
       "noPricingProfiles": "找无定价概况"
     },
     "buttons": {
+      "addDeposit": "+ 新增押金",
       "addOverride": "新增覆盖",
-      "createInvoice": "建立单据?"
+      "createInvoice": "建立单据?",
+      "newInvoice": "+ 新增单据"
     },
     "labels": {
       "actualCharges": "实际收费",
@@ -353,7 +355,13 @@
       "flatDiscountMsg": "患者负责的基本费用已包含 {currency}{discountAmount} 的折扣.",
       "flatFeeMsg": "患者负责 {currency}{setFee} 的基本费用."
     },
-    "navigation": {}
+    "navigation": {
+      "allInvoices": "全部",
+      "billed": "计费",
+      "drafts": "汇款",
+      "paid": "付清"
+    },
+    "pageTitle": "收费单据"
   },
   "buttons": {
     "add": "新增",
@@ -1194,7 +1202,7 @@
       "logoutFailed": "現在无法登出. 离线時无法登出."
     },
     "patients": "患者",
-    "scheduling": "调度",
+    "scheduling": "预约",
     "subnav": {
       "actions": "动作",
       "addAppointment": "新增预约",
@@ -1212,7 +1220,7 @@
       "incidentCategories": "事件类别",
       "inventoryReceived": "收到的库存",
       "inventoryReceivedPlus": "+ 收到的库存",
-      "invoices": "清单",
+      "invoices": "单据",
       "items": "项目",
       "loadDB": "启动数据库",
       "lookupLists": "查找列表",
@@ -1420,7 +1428,14 @@
       "discountPercentage": "折扣百分比",
       "setFee": "设定费用"
     },
-    "navigation": {}
+    "navigation": {
+      "allPricingItems": "全部价格",
+      "imagePricing": "影像价格",
+      "labPricing": "测试价格",
+      "pricingProfiles": "价格概况",
+      "procedurePricing": "程序价格",
+      "wardPricing": "病房价格"
+    }
   },
   "print": {
     "invoice": {
