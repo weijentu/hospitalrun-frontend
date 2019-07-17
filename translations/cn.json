@@ -172,7 +172,7 @@
         "addProcedure": "新增手术",
         "addSocialwork": "新增社区工作",
         "addVisit": "新增探访",
-        "addVitals": "新增命脉资料",
+        "addVitals": "新增生命体征",
         "adjustInventoryLocation": "调整库存位置",
         "admin": "行政",
         "admitPatient": "接纳病患",
@@ -199,7 +199,7 @@
         "deleteProcedure": "删除手术",
         "deleteSocialwork": "删除社会工作",
         "deleteVisit": "删除拜访",
-        "deleteVitals": "删除命脉资料",
+        "deleteVitals": "删除生命体征",
         "dischargePatient": "让病患出院",
         "editInvoice": "编辑单据",
         "fulfillInventory": "滿足库存",
@@ -1542,7 +1542,7 @@
       "newDischargeReport": "新增出院报告",
       "newOPDReport": "新增OPD报告",
       "newProcedure": "新增手术",
-      "newVitals": "新增命脉资料"
+      "newVitals": "新增生命体征"
     },
     "labels": {
       "appointment": "预约",
@@ -1587,7 +1587,7 @@
       "orders": "订購",
       "procedures": "手术",
       "reports": "报告",
-      "vitals": "命脉资料"
+      "vitals": "生命体征"
     },
     "titles": {
       "additionalDiagnoses": "其他诊断",
@@ -1604,11 +1604,11 @@
   "vitals": {
     "labels": {
       "dateRecorded": "纪录之日期",
-      "dbp": "出生年月日",
+      "dbp": "舒张压",
       "heartRate": "心率",
       "height": "身高",
       "respiratoryRate": "呼吸频率",
-      "sbp": "SBP",
+      "sbp": "收缩压",
       "temperature": "体溫",
       "weight": "体重"
     }
