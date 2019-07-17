@@ -102,9 +102,9 @@
           <div class="panel-body detail-section-content">
             <div class="row">
               <div class="col-xs-12 col-sm-6">
-                {{form.input property="firstName" label=(t 'patients.labels.firstName') class="form-input-group required test-first-name"}}
-                {{form.input property="middleName" label=(t 'patients.labels.middleName') class="form-input-group test-middle-name"}}
                 {{form.input property="lastName" label=(t 'patients.labels.lastName') class="form-input-group required test-last-name"}}
+                {{form.input property="middleName" label=(t 'patients.labels.middleName') class="form-input-group test-middle-name"}}
+                {{form.input property="firstName" label=(t 'patients.labels.firstName') class="form-input-group required test-first-name"}}
                 {{select-or-typeahead form=form model=model property="sex" label=(t 'patients.labels.sex')  class="form-input-group" list=sexList selection=model.sex}}
                 {{date-picker model=model property="dateOfBirth" label=(t 'patients.labels.dateOfBirth')  class="form-input-group " maxDate="now"}}
                 <div class="form-input-group">
