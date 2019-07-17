@@ -358,7 +358,7 @@
     "navigation": {
       "allInvoices": "全部",
       "billed": "计费",
-      "drafts": "汇款",
+      "drafts": "起草",
       "paid": "付清"
     },
     "pageTitle": "收费单据"
@@ -895,7 +895,7 @@
     "endDate": "结束日期",
     "endTime": "结束时间",
     "excess": "过量",
-    "expenseTo": "由...付费",
+    "expenseTo": "支付者",
     "fileLoadSuccessful": "成功载入档案",
     "fileName": "档案名称",
     "fileToLoad": "档案载入",
@@ -1231,7 +1231,7 @@
       "newUser": "新增使用者",
       "outpatient": "门诊病人",
       "patientListing": "患者名单",
-      "priceProfiles": "价格概况",
+      "priceProfiles": "付款资料",
       "prices": "价格",
       "printHeader": "列印标题",
       "reports": "报告",
@@ -1432,7 +1432,7 @@
       "allPricingItems": "全部价格",
       "imagePricing": "影像价格",
       "labPricing": "实验室价格",
-      "pricingProfiles": "价格概况",
+      "pricingProfiles": "付款资料",
       "procedurePricing": "手术价格",
       "wardPricing": "病房价格"
     }
