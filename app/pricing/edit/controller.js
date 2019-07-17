@@ -62,10 +62,10 @@ export default AbstractEditController.extend(ReturnTo, {
   },
 
   categories: [
-    'Imaging',
-    'Lab',
-    'Procedure',
-    'Ward'
+    '影像',
+    '实验室',
+    '手术',
+    '病房'
   ].map(SelectValues.selectValuesMap),
   expenseAccountList: alias('pricingController.expenseAccountList'),
   procedurePricingTypes: alias('pricingController.procedurePricingTypes'),

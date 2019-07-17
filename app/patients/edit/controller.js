@@ -11,7 +11,6 @@ import { isEmpty } from '@ember/utils';
 import AbstractEditController from 'hospitalrun/controllers/abstract-edit-controller';
 import AllergyActions from 'hospitalrun/mixins/allergy-actions';
 import BloodTypes from 'hospitalrun/mixins/blood-types';
-import PaymentProfiles from 'hospitalrun/mixins/payment-profiles';
 import DiagnosisActions from 'hospitalrun/mixins/diagnosis-actions';
 import PatientId from 'hospitalrun/mixins/patient-id';
 import PatientNotes from 'hospitalrun/mixins/patient-notes';
@@ -21,7 +20,7 @@ import UserSession from 'hospitalrun/mixins/user-session';
 import VisitStatus from 'hospitalrun/utils/visit-statuses';
 import PatientVisits from 'hospitalrun/mixins/patient-visits';
 
-export default AbstractEditController.extend(AllergyActions, BloodTypes, PaymentProfiles, DiagnosisActions, ReturnTo, UserSession, PatientId, PatientNotes, PatientVisits, {
+export default AbstractEditController.extend(AllergyActions, BloodTypes, DiagnosisActions, ReturnTo, UserSession, PatientId, PatientNotes, PatientVisits, {
 
   canAddAppointment: computed(function() {
     return this.currentUserCan('add_appointment');

@@ -18,8 +18,8 @@
         {{#each model as |patient|}}
           <tr {{action 'editItem' patient}} class="clickable">
             <td>{{patient.displayPatientId}}</td>
-            <td>{{patient.firstName}}</td>
             <td>{{patient.lastName}}</td>
+            <td>{{patient.firstName}}</td>
             <td>{{patient.sex}}</td>
             <td>{{date-format patient.dateOfBirth}}</td>
             <td>{{patient.status}}</td>

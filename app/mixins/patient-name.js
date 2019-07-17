@@ -20,14 +20,14 @@ export default Mixin.create({
     let lastName = get(patient, 'lastName');
     let middleName = get(patient, 'middleName');
     let nameArray = [];
-    if (!isEmpty(firstName)) {
-      nameArray.push(firstName);
+    if (!isEmpty(lastName)) {
+      nameArray.push(lastName);
     }
     if (!isEmpty(middleName) && !shortName) {
       nameArray.push(middleName);
     }
-    if (!isEmpty(lastName)) {
-      nameArray.push(lastName);
+    if (!isEmpty(firstName)) {
+      nameArray.push(firstName);
     }
     return nameArray.join(' ');
   }

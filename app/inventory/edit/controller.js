@@ -267,6 +267,6 @@ export default AbstractEditController.extend(FriendlyId, InventoryLocations, Inv
       afterUpdateAction = 'editNewItem';
       this.set('savingNewItem', false);
     }
-    this.displayAlert('Inventory Item Saved', 'The inventory item has been saved.', afterUpdateAction);
+    this.displayAlert('库存品项已储存', '这项库存品项已经存到数据库中。', afterUpdateAction);
   }
 });

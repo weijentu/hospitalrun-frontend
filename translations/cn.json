@@ -159,7 +159,7 @@
         "addInventoryPurchase": "增加库存购买",
         "addInventoryRequest": "增加库存请求",
         "addInvoice": "增加单据",
-        "addLab": "增加测试",
+        "addLab": "增加实验室",
         "addMedication": "增加药物",
         "addNote": "增加笔记",
         "addOperationReport": "增加手术报告",
@@ -180,7 +180,7 @@
         "billing": "计费",
         "cashier": "出纳员",
         "completeImaging": "完成影像",
-        "completeLab": "完成测试",
+        "completeLab": "完成实验室",
         "defineUserRoles": "定义用戶角色",
         "deleteAppointment": "删除预约",
         "deleteDiagnosis": "删除诊断",
@@ -189,7 +189,7 @@
         "deleteIncidentCategory": "删除事件类型",
         "deleteInventoryItem": "删除库存项目",
         "deleteInvoice": "删除单据",
-        "deleteLab": "删除测试",
+        "deleteLab": "删除实验室",
         "deleteMedication": "删除药物",
         "deleteNote": "删除笔记",
         "deletePatient": "删除病患",
@@ -209,7 +209,7 @@
         "incident": "事件",
         "inventory": "库存",
         "invoices": "单据",
-        "labs": "测试",
+        "labs": "实验室",
         "listPaidInvoices": "显示付清单据",
         "loadDb": "载入数据庫",
         "manageIncidents": "管理事件",
@@ -262,7 +262,7 @@
       },
       "newTitle": "流程选项",
       "outpatientImagingLabel": "需要门诊病人影像付款",
-      "outpatientLabLabel": "需要门诊病人测试付款",
+      "outpatientLabLabel": "需要门诊病人实验室付款",
       "outpatientMedicationLabel": "需要门诊病人药物付款",
       "titles": {
         "optionsSaved": "选项已储存"
@@ -431,12 +431,12 @@
     "patientOrders": {
       "buttons": {
         "newImaging": "新增影像",
-        "newLab": "新增测试",
+        "newLab": "新增实验室",
         "newMedication": "新增药物"
       },
       "labels": {
         "imagingOrderType": "影像",
-        "labOrderType": "测试",
+        "labOrderType": "实验室",
         "medicationOrderType": "药物",
         "orderType": "订購类型"
       }
@@ -752,7 +752,7 @@
       "reason": "原因",
       "remove": "移除",
       "removeAdjustmentType": "移除",
-      "reorderPoint": "订貨點",
+      "reorderPoint": "再订货点",
       "requestedItems": "要求项目",
       "returnAdjustmentType": "退回",
       "returnToVendorAdjustmentType": "退回给供应商",
@@ -961,29 +961,29 @@
   },
   "labs": {
     "alerts": {
-      "requestCompletedMessage": "测试要求已完成.",
-      "requestCompletedTitle": "测试要求已完成",
-      "requestSavedMessage": "测试要求已储存.",
-      "requestSavedTitle": "测试要求已储存"
+      "requestCompletedMessage": "实验室要求已完成.",
+      "requestCompletedTitle": "实验室要求已完成",
+      "requestSavedMessage": "实验室要求已储存.",
+      "requestSavedTitle": "实验室要求已储存"
     },
     "buttons": {
-      "newButton": "+ 新增测试"
+      "newButton": "+ 新增实验室"
     },
-    "completedTitle": "已完成的测试",
+    "completedTitle": "已完成的实验室",
     "deleteTitle": "删除要求",
-    "editTitle": "编辑测试要求",
+    "editTitle": "编辑实验室要求",
     "labels": {
       "addNewVisit": "--加入新探访--",
-      "labType": "测试种类"
+      "labType": "实验室种类"
     },
     "messages": {
       "createNewRecord": "加入新纪录?",
       "noCompleted": "找无已完成的项目.",
-      "noItemsFound": "找无测试."
+      "noItemsFound": "找无实验室."
     },
-    "newTitle": "新增测试要求",
-    "requestsTitle": "测试要求",
-    "sectionTitle": "测试"
+    "newTitle": "新增实验室要求",
+    "requestsTitle": "实验室要求",
+    "sectionTitle": "实验室"
   },
   "languageName": "简体中文",
   "loading": {
@@ -1127,12 +1127,12 @@
     },
     "lab": {
       "names": {
-        "plural": "测试",
-        "singular": "测试"
+        "plural": "实验室",
+        "singular": "实验室"
       },
       "request": {
-        "plural": "测试要求",
-        "singular": "测试要求"
+        "plural": "实验室要求",
+        "singular": "实验室要求"
       }
     },
     "medication": {
@@ -1196,7 +1196,7 @@
     "imaging": "影像",
     "incident": "事件",
     "inventory": "库存",
-    "labs": "测试",
+    "labs": "实验室",
     "medication": "药物",
     "messages": {
       "logoutFailed": "現在无法登出. 离线時无法登出."
@@ -1306,7 +1306,7 @@
       "editOperativePlan": "現有手术计划",
       "newAppointment": "新增预约",
       "newImaging": "新增影像",
-      "newLab": "新增测试",
+      "newLab": "新增实验室",
       "newMedication": "新增药物",
       "newPatient": "+ 新增患者",
       "newPhoto": "新增照片",
@@ -1372,7 +1372,7 @@
       "general": "一般",
       "history": "历史",
       "imaging": "影像",
-      "labs": "测试",
+      "labs": "实验室",
       "medication": "药物",
       "photos": "照片",
       "socialWork": "社区工作",
@@ -1398,7 +1398,7 @@
       "deleteFamilyMember": "删除家庭成员",
       "deletePatientRecord": "删除患者纪录",
       "deletePhoto": "删除照片",
-      "diagnosticTesting": "诊断测试",
+      "diagnosticTesting": "诊断实验室",
       "dischargesDetail": "出院细节",
       "dischargesSummary": "出院概要",
       "edit": "编辑患者",
@@ -1431,7 +1431,7 @@
     "navigation": {
       "allPricingItems": "全部价格",
       "imagePricing": "影像价格",
-      "labPricing": "测试价格",
+      "labPricing": "实验室价格",
       "pricingProfiles": "价格概况",
       "procedurePricing": "手术价格",
       "wardPricing": "病房价格"
@@ -1494,7 +1494,7 @@
       "dischargeDate": "出院日期",
       "examiner": "审查者",
       "images": "照片",
-      "labs": "测试",
+      "labs": "实验室",
       "location": "探访地点",
       "medications": "药物",
       "nextAppointment": "下个预约",
