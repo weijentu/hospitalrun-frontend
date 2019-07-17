@@ -168,7 +168,7 @@
         "addPayment": "新增付款",
         "addPhoto": "增加照片",
         "addPricing": "新增价錢",
-        "addPricingProfile": "新增定价概况",
+        "addPricingProfile": "新增付款资料",
         "addProcedure": "新增手术",
         "addSocialwork": "新增社区工作",
         "addVisit": "新增探访",
@@ -195,7 +195,7 @@
         "deletePatient": "删除病患",
         "deletePhoto": "删除照片",
         "deletePricing": "删除定价",
-        "deletePricingProfile": "删除定价概况",
+        "deletePricingProfile": "删除付款资料",
         "deleteProcedure": "删除手术",
         "deleteSocialwork": "删除社会工作",
         "deleteVisit": "删除拜访",
@@ -330,7 +330,7 @@
     "alerts": {
       "noInvoiceFound": "找无单据",
       "noPricingItems": "找无定价项目",
-      "noPricingProfiles": "找无定价概况"
+      "noPricingProfiles": "找无付款资料"
     },
     "buttons": {
       "addDeposit": "+ 新增押金",
