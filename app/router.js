@@ -1,7 +1,7 @@
 import EmberRouter from '@ember/routing/router';
 import config from './config/environment';
 import { get } from '@ember/object';
-import { inject as service } from '@ember/service';
+// import { inject as service } from '@ember/service';
 import { scheduleOnce } from '@ember/runloop';
 
 const REGEX_UUID_URL_PART = /\/[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}/g;
