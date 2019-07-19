@@ -8,8 +8,6 @@ const REGEX_UUID_URL_PART = /\/[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9
 const REGEX_SEARCH_URL_PART = /(\/search)\/.+/;
 
 const Router = EmberRouter.extend({
-  metrics: service(),
-
   location: config.locationType,
   rootURL: config.rootURL,
 
