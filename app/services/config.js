@@ -60,7 +60,7 @@ export default Service.extend({
       keys: [
         'config_consumer_key',
         'config_consumer_secret',
-        'config_disable_offline_sync',
+        // 'config_disable_offline_sync',
         'config_external_search',
         'config_oauth_token',
         'config_token_secret',
