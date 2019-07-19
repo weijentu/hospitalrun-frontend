@@ -15,7 +15,7 @@ const Router = EmberRouter.extend({
 
   didTransition() {
     this._super(...arguments);
-    this._trackPage();
+    // this._trackPage();
   },
 
   _trackPage() {
